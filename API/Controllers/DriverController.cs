@@ -19,7 +19,7 @@ namespace API.Controllers
         [HttpGet]
         public DriverDto GetDriver(int x)
         {
-            int xv;
+            int xv=5;
             return d.getDriver(x);
 
         }
