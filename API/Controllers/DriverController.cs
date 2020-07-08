@@ -20,10 +20,6 @@ namespace API.Controllers
         public DriverDto GetDriver(int x)
         {
 
-
-
-
-
             return d.getDriver(x);
 
         }
